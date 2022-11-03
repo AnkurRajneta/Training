@@ -7,8 +7,13 @@
     <title>Document</title>
 </head>
 <body>
+    <style>
+        th,tr,td{
+            padding: 10px;
+        }
+    </style>
     <form action="https://www.google.com">
-    <table border="1">
+    <table border="1" cellspacing="10px" width="50%", align="center">
         <tr>
             <th colspan="2" align="center">Registration Form</th>
         </tr>
@@ -78,6 +83,19 @@
                 <label>Resume</label>
             </th>
             <td><input type="file"></td>
+        </tr>
+        <tr>
+            <th>
+                <label>City</label>
+                <td>
+                    <Select>
+                        <option value="">--------</option>
+                        <option value="">Delhi</option>
+                        <option value="">Noida</option>
+                        <option value="">Nainital</option>
+                    </Select>
+                </td>
+            </th>
         </tr>
         <tr>
             <th colspan="2" align="center">
